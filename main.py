@@ -7,15 +7,20 @@ class ChatbotWindow(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setMinimumSize(700, 700)
+        self.setMinimumSize(700, 500)
 
         # Add the chat area
         self.chat_area = QTextEdit(self)
+        self.chat_area.setGeometry(10, 10, 480, 320) # 10 from side and upper body of the window, width, height
+        self.chat_area.setReadOnly(True) # The content cannot be modified
+
         # Add the input area
         self.input_area = QLineEdit(self)
-        # Add the button send
-        self.chat_area = QPushButton("Send", self)
+        self.input_area.setGeometry(10, 340, 480, 40)
 
+        # Add the button send
+        self.button = QPushButton("Send", self)
+        self.button.setGeometry(500, 340, 100, 40)
         self.show()
 
 
