@@ -22,6 +22,7 @@ class ChatbotWindow(QMainWindow):
         # Add the input area
         self.input_area = QLineEdit(self)
         self.input_area.setGeometry(10, 340, 480, 40)
+        self.input_area.returnPressed.connect(self.send_message) # This allows to use the enter key to send the message
 
         # Add the button Send
         self.button = QPushButton("Send", self)
