@@ -42,4 +42,3 @@ You can extend this project by improving the Chatbot class in the backend.py fil
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-This `README.md` file provides a comprehensive guide to understanding, installing, and using the Chatbot GUI application, as well as insights into the code structure and functionality.
