@@ -41,4 +41,4 @@ The application window will open, allowing you to type messages in the input are
 You can extend this project by improving the Chatbot class in the backend.py file, integrating with more advanced AI models, or enhancing the user interface with additional features such as voice input, file attachments, etc.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
